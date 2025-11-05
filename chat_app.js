@@ -1,5 +1,5 @@
 // Connect to the Websocket Server
-const chatSocket = new WebSocket("ws://localhost:8090")
+const chatSocket = new WebSocket("wss://js-chat-server-e43o.onrender.com")
 var isSocketConnected = false;
 
 var user_name = localStorage.getItem("userName") || "";
